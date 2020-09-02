@@ -12,5 +12,5 @@ from SplittingforContinuousOptimization import SCO, peaks
 SCO(S=peaks, N=200, ς=0.8, w=0.5, B=[-3*np.ones(2), 3*np.ones(2)])
 ``` 
 
-##References
+## References
 1. Kroese, D. P., Botev, Z., Taimre, T., & Vaisman, R. (2019). *Data Science and Machine Learning : Mathematical and Statistical Methods*.
