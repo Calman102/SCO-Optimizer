@@ -2,8 +2,11 @@
  A genetic algorithm for multivariate optimization written in Python.
  
 ## Usage
-Put `SplittingforContinuousOptimization.py` in your working directory and type
-`from SplittingforContinuousOptimization import SCO`.
+Put `SplittingforContinuousOptimization.py` in your working directory import it 
+as follows:
+```python
+from SplittingforContinuousOptimization import SCO
+```
 
 ### Example
 ```python
