@@ -25,7 +25,7 @@ def SCO(S, N, ς, w, B, MaxTry=5):
         ς: (float) Rarity parameter.
         w: (float) Scale factor.
         B: (list) Upper and lower bounds for a global minimiser.
-        MaxTry: (int) Maxmimum number of attempts.
+        MaxTry: (int) Maximum number of attempts.
     
     Returns
     -------
