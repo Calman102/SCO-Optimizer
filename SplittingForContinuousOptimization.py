@@ -52,7 +52,7 @@ def SCO(S, N, ς, w, B, MaxTry=5):
     while True:
         print(f"ITERATION {t+1}...")
         S_X = np.array([S(X) for X in Y_SET[t]])
-        idx = np.argpartition(S_X, N_elite)[:N_elite]
+        idx = np.argsort(S_X)[:N_elite]
         S_X = S_X[idx]
         X = [Y_SET[t][i] for i in idx]
         X_SET[t+1] = X
